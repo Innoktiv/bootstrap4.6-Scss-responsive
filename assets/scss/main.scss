@@ -1,18 +1,26 @@
 //Abstracts
 @import "abstracts/variables";
+@import "abstracts/mixins";
+
 //Vendor
+
 @import "vendor/bootstrap4.6/bootstrap.scss";
+
 //Base
 @import "base/reset";
-@import "base/typography"
+@import "base/typography";
+@import "layout/grid";
 //Layout
 @import "layout/header";
 @import "layout/article";
 @import "layout/footer";
-@import "layout/navbar"
-@import "layout/section"
+@import "layout/navbar";
+@import "layout/section";
+
 //Components
 @import "components/buttons";
+
 //Pages
 @import "pages/home";
+
 //Themes

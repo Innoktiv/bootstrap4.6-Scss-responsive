@@ -1,0 +1,9 @@
+@mixin respond-to($break-point) {
+  @media (min-width:$break-point) {
+    @content;
+  }
+}
+
+@mixin border($color_borde, $weight_borde: 1px) {
+  border: $weight_borde solid $color_borde;
+}
